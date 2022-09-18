@@ -18,4 +18,12 @@ defmodule MyFunction do
     my_string = "Hey Ben! Good progress in studying Elexir"
     IO.puts "Length: #{String.length(my_string)}"
   end
+
+  def join_strings do
+    my_string = "Hey Ben! Good progress in studying Elexir"
+    IO.puts "Length: #{String.length(my_string)}"
+    my_string2 = my_string <> ". " <> "Looking forward for you making applications"
+    IO.puts "Length of concated string is: #{String.length(my_string2)}"
+    IO.puts "Concated String is: #{my_string2}"
+  end
 end
