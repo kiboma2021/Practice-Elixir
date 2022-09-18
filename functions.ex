@@ -26,4 +26,9 @@ defmodule MyFunction do
     IO.puts "Length of concated string is: #{String.length(my_string2)}"
     IO.puts "Concated String is: #{my_string2}"
   end
+
+  def  compare_strings do
+    IO.puts "Equal: #{"Egg" === "Egg"}"
+    IO.puts "Equal: #{"Egg" === "egg"}"
+  end
 end
