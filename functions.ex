@@ -30,5 +30,6 @@ defmodule MyFunction do
   def  compare_strings do
     IO.puts "Equal: #{"Egg" === "Egg"}"
     IO.puts "Equal: #{"Egg" === "egg"}"
+    IO.puts "Equal: #{"Egg" === "banana"}"
   end
 end
